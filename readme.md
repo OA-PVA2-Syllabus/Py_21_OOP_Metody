@@ -12,20 +12,17 @@ Ve třídě auto definuj konstruktor. Povinným údajem budou všechny vlastnost
 
 Vytvoř všechny objekty vozidel, které evidujeme v autopůjčovně.
 
-### 2 Přístupnost
-Pro všechny vlastnosti uprav modifikátor přístupu tak, aby nebyla vlastnost editovatelná mimo třídu.
-
-### 3 Půjčení
+### 2 Půjčení
 Deklaruj metodu pro výpůjčku automobilu. Metoda zkontroluje, zda-li je vozidlo volné. Pokud je volné,změní hodnotu atributu, který určuje, zda je vozidlo půjčené a vrátí text návratovou hodnotu boolean. 
 
 - true - vozidlo bylo volné a výpůjčka byla úspěšně provedena
 - false - vozidlo bylo obsazeno a nelze vozidlo vypůjčit
 
-### 4 Zápůjčka akce
+### 3 Zápůjčka akce
 V programu proveďte pro všechny vozidla výpůjčku. Nasimulujte situaci, že chcete jedno vozidlo vypůjčit dvakrát.
 Pro úspěšnou výpůjčku zobrazte uživateli "Vozidlo úspěšně zapůjčeno". Pokud je vozidlo již půjčené, zobrazíte text "Vozidlo není k dispozici".
 
-### 5 Vrácení auta
+### 4 Vrácení auta
 Deklaruj metodu pro vrácení auta. Při vrácení auta budete od uživatele chtít zadat stav tachometru při vrácení a počet dní, po které zákazník auto používal. Uložte stav tachometru do atributu objektu. Nastav vozidlo jako volné.
 
 Funkce bude vracet cenu za zápůjčku. Pro jednoduchost počítejme, že jednotná cena pro všechna naše vozidla je 2000 Kč/den.
